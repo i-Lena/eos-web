@@ -1,0 +1,193 @@
+/**
+* @Author : Nana
+* @Date : 2019/5/23 21:02
+* @Version 1.0
+*/
+/**
+ * Bootstrap扩展
+ */
+/*navbar*/
+.navbar-eos {
+    background-color: #03030D;
+    margin-bottom: 0;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-eos .navbar-brand {
+    color: #fff;
+    height: 78px;
+    line-height: 100%;
+}
+
+.navbar-eos .navbar-brand:hover,
+.navbar-eos .navbar-brand:focus {
+    color: #4972FF;
+    background-color: transparent;
+}
+
+.navbar-eos .navbar-text {
+    color: #777;
+}
+.navbar-eos .navbar-nav > li > a {
+    color: #fff;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.navbar-eos .navbar-nav > li > a:hover,
+.navbar-eos .navbar-nav > li > a:focus {
+    color: #4972FF;
+    background-color: transparent;
+    border-bottom: 2px solid #4972FF;
+}
+
+.navbar-eos .navbar-nav > .active > a,
+.navbar-eos .navbar-nav > .active > a:hover,
+.navbar-eos .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: transparent;
+    border-bottom: 2px solid #4972FF;
+}
+
+.navbar-eos .navbar-nav > .disabled > a,
+.navbar-eos .navbar-nav > .disabled > a:hover,
+.navbar-eos .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-eos .navbar-toggle {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.navbar-eos .navbar-toggle:hover,
+.navbar-eos .navbar-toggle:focus {
+
+}
+
+.navbar-eos .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.navbar-eos .navbar-collapse,
+.navbar-eos .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.navbar-eos .navbar-nav > .open > a,
+.navbar-eos .navbar-nav > .open > a:hover,
+.navbar-eos .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+    .navbar-eos .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-eos .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-eos .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #4972FF;
+        background-color: transparent;
+    }
+    .navbar-eos .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-eos .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-eos .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #4972FF;
+        background-color: #e7e7e7;
+    }
+    .navbar-eos .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-eos .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-eos .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+}
+
+.navbar-eos .navbar-link {
+    color: #777;
+}
+
+.navbar-eos .navbar-link:hover {
+    color: #4972FF;
+}
+
+.navbar-eos .btn-link {
+    color: #777;
+}
+
+.navbar-eos .btn-link:hover,
+.navbar-eos .btn-link:focus {
+    color: #4972FF;
+}
+
+.navbar-eos .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-eos .btn-link:hover,
+.navbar-eos .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-eos .btn-link:focus {
+    color: #ccc;
+}
+/*panel-default*/
+.panel-product {
+    border-color: #ddd;
+}
+.panel-product > .panel-heading {
+    border-color: #ddd;
+}
+.panel-product > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+.panel-product > .panel-heading .badge {
+    background-color: #4972FF;
+}
+
+/*/panel-default*/
+
+/* 主体 */
+.wrap {
+    background-color: #101B4D;
+}
+.awardsPool {
+    background-color: #000112;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+.awardsItems {
+    margin-top: 20px;
+
+}
+.awardsItem {
+
+}
+.awardsItem1, .awardsItem2{
+    width: 60%;
+    border: 1px solid #4972FF;
+    border-radius: 5px;
+    margin: 5px;
+    color: #fff;
+    padding: 20px;
+}
+.awardsItems .awardsItem1 {
+    position: absolute;
+    right: 0;
+}
+
+.awardsItem2 {
+
+}
+.awardsDesc {
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    margin: 20px auto;
+    line-height: 2em;
+}
